@@ -1,0 +1,41 @@
+{
+  "name": "daily-dev-features",
+  "version": "1.0.0",
+  "description": "use this project to [learn, practice, contribute, communicate, etc]",
+  "keywords": [
+    "learn",
+    "practice",
+    "contribute",
+    "communicate",
+    "programming",
+    "feature",
+    "daily-habbits"
+  ],
+  "homepage": "https://github.com/mt9ing/daily-dev-features#readme",
+  "bugs": {
+    "url": "https://github.com/mt9ing/daily-dev-features/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mt9ing/daily-dev-features.git"
+  },
+  "license": "ISC",
+  "author": "Mohammed Talaat",
+  "type": "commonjs",
+  "main": "server.ts",
+  "scripts": {
+    "start:dev": "nodemon server.ts",
+    "start:pro": "node ./dist/server.js",
+    "build": "tsc",
+    "start:test": ""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

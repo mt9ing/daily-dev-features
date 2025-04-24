@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Modern JS features
+    "module": "CommonJS", // Node.js module system
+    "outDir": "./build", // Where compiled files go
+    "rootDir": ".", // Entry file is at project root
+    "strict": true, // Enable all strict type checks
+    "esModuleInterop": true, // Allow default imports from CJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true, // Skip checking type definitions
+    "resolveJsonModule": true, // Allow importing JSON
+    "moduleResolution": "node", // Module resolution strategy
+    "noEmitOnError": true // Don’t emit files if there's an error
+  },
+  "include": ["server.ts", "src/**/*"],
+  "exclude": ["node_modules", "build"]
+}

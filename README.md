@@ -39,6 +39,19 @@ Every feature lives in its own folder and can be as small or as creative as you 
 
 ---
 
+## ⭕ NOTES: Could Help You!
+
+0. **NOT JUST FEATUREs** you can also create anything `["whole project", "utility function", "random script", "etc..."]`
+1. **Use ChatGPT** to make the feature README.md file
+2. **Use snake-case** in your files and folder name for better readability
+3. **Create a new folder** with your github username like: `/@mt9ing` if you're going to contribute alot in the feature
+4. **For Single Feature** just create a folder like `/feature-name_@your-username`
+5. **Create a new folder** for each feature you make
+6. **DON'T FORGET TO** Add your information in `/Contributors/index.json` after you finish your first contribute
+7. **ALSO DON'T FORGET TO EDIT IT** after making another feature by adding the feature name in the feature array in `/Contributors/index.json`
+
+---
+
 ## 💬 Feature Ideas (Feel free to pick or suggest more!)
 
 - Dark mode toggle

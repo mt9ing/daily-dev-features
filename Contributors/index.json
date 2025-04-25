@@ -5,6 +5,6 @@
     "username": "mt9ing",
     "role": "Backend Developer",
     "techStack": ["Node", "Typescript", "Express", "Postgresql"],
-    "features": ["OAuth"]
+    "features": []
   }
 ]

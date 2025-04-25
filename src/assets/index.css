@@ -1,0 +1,81 @@
+/* Global Reset and Dark Mode */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  color: #f1f1f1;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Header Styling */
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.region {
+  font-size: 1rem;
+  color: #ccc;
+  margin-left: 10px;
+}
+
+/* Body Styling */
+.card-body p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.card-body ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.card-body ul li {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.card-body strong {
+  color: #f1f1f1;
+}

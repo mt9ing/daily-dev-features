@@ -4,10 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contributors</title>
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <% contributors.forEach(contributor => { %>
-    <h1>Hello, <%= contributor.name %></h1>
-    <% }) %>
+    <div class="container">
+      <% contributors.forEach(contributor => { %>
+      <div class="card">
+        <div class="card-header">
+          <img
+            src="https://avatars.githubusercontent.com/<%= contributor.username %>"
+            alt="<%= contributor.name %>'s avatar"
+            class="avatar"
+          />
+          <h3 class="name"><%= contributor.name %></h3>
+          <span class="region"><%= contributor.region %></span>
+        </div>
+        <div class="card-body">
+          <p><strong>GitHub Username:</strong> @<%= contributor.username %></p>
+          <p><strong>Role:</strong> <%= contributor.role %></p>
+          <p>
+            <strong>Techstack:</strong> <%= contributor.techStack.join(', ') %>
+          </p>
+          <p><strong>Features Contributed:</strong></p>
+          <ul>
+            <% contributor.features.forEach(feature => { %>
+            <li><%= feature %></li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+      <% }) %>
+    </div>
   </body>
 </html>

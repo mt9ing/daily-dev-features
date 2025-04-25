@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Mohammed Talaat",
+    "region": "Africa/Egypt",
+    "username": "mt9ing",
+    "role": "Backend Developer",
+    "techStack": ["Node", "Typescript", "Express", "Postgresql"],
+    "features": ["OAuth"]
+  },
+  {
+    "name": "Sarah Ahmed",
+    "region": "Asia/UAE",
+    "username": "sarah_dev",
+    "role": "Full Stack Developer",
+    "techStack": ["React", "Node", "MongoDB", "Express"],
+    "features": ["JWT Authentication", "REST API"]
+  },
+  {
+    "name": "John Doe",
+    "region": "Europe/UK",
+    "username": "johnnycodes",
+    "role": "Frontend Developer",
+    "techStack": ["HTML", "CSS", "JavaScript", "React"],
+    "features": ["Responsive Design", "SPA"]
+  },
+  {
+    "name": "Ravi Kumar",
+    "region": "Asia/India",
+    "username": "ravik_tech",
+    "role": "DevOps Engineer",
+    "techStack": ["Docker", "Kubernetes", "AWS", "Terraform"],
+    "features": ["CI/CD", "Infrastructure as Code"]
+  },
+  {
+    "name": "Emily Johnson",
+    "region": "North America/USA",
+    "username": "emily.codes",
+    "role": "Software Engineer",
+    "techStack": ["Python", "Django", "PostgreSQL"],
+    "features": ["Web Scraping", "Data Analysis"]
+  },
+  {
+    "name": "Carlos Garcia",
+    "region": "South America/Brazil",
+    "username": "carlosg_dev",
+    "role": "Mobile App Developer",
+    "techStack": ["Flutter", "Dart", "Firebase"],
+    "features": ["Cross-Platform Apps", "Push Notifications"]
+  },
+  {
+    "name": "Lena Schmidt",
+    "region": "Europe/Germany",
+    "username": "lena.codes",
+    "role": "Backend Developer",
+    "techStack": ["Java", "Spring Boot", "MySQL"],
+    "features": ["Microservices", "RESTful APIs"]
+  },
+  {
+    "name": "David Lee",
+    "region": "Asia/South Korea",
+    "username": "david_dev",
+    "role": "Data Scientist",
+    "techStack": ["Python", "Pandas", "Scikit-learn"],
+    "features": ["Machine Learning", "Data Visualization"]
+  },
+  {
+    "name": "Nina Rodriguez",
+    "region": "North America/Canada",
+    "username": "ninadev",
+    "role": "UX/UI Designer",
+    "techStack": ["Figma", "Adobe XD", "Sketch"],
+    "features": ["Prototyping", "User Research"]
+  },
+  {
+    "name": "Ahmed Ali",
+    "region": "Africa/Egypt",
+    "username": "ahmed.codes",
+    "role": "Cloud Engineer",
+    "techStack": ["AWS", "Azure", "GCP", "Terraform"],
+    "features": ["Cloud Architecture", "Automation"]
+  },
+  {
+    "name": "Sofia Patel",
+    "region": "Asia/India",
+    "username": "sofia_tech",
+    "role": "Quality Assurance Engineer",
+    "techStack": ["Selenium", "Jest", "Cypress"],
+    "features": ["Test Automation", "CI/CD Integration"]
+  }
+]

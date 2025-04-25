@@ -8,6 +8,7 @@ const application: Express = express();
 // Express Configurations
 application.set("view engine", "ejs");
 application.set("views", path.join(__dirname, "views"));
+application.use(express.static(path.join(__dirname, "assets")));
 
 // Middlewares
 application.use(express.json());
